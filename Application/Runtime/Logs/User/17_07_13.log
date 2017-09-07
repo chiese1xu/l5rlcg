@@ -1,0 +1,436 @@
+[ 2017-07-13T20:35:01+08:00 ] 127.0.0.1 /tp/user/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-13T20:35:18+08:00 ] 127.0.0.1 /tp/user/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0425s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'chief1' AND `password` = '123456' AND `active` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-13T20:35:19+08:00 ] 127.0.0.1 /tp/user/chief/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-13T20:35:19+08:00 ] 127.0.0.1 /tp/User/Chief/nav
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-13T20:35:19+08:00 ] 127.0.0.1 /tp/User/Chief/menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-13T20:35:20+08:00 ] ::1 /tp/User/Chief/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0725s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `person` WHERE ( active = 1 and chiefid =8 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: select person.id,person.name,person.chiefid,eat.date,user.realname,eat.breakfastid,eat.lunchid,eat.supperid,
+		(select meal.name from meal where meal.id=breakfastid) as breakfast,
+		(select meal.name from meal where meal.id=lunchid) as lunch,
+		(select meal.name from meal where meal.id=supperid) as supper
+		from user ,person left join eat on person.id = eat.personid and eat.date = '2017-07-13'
+		where user.id=person.chiefid and person.active =1 and person.chiefid=8
+		limit 0 ,5; [ RunTime:0.0775s ]
+SQL: select meal.id,meal.name,
+			(select name from food where food.id=meal.staple1) as staple1 ,
+			(select name from food where food.id=meal.staple2) as staple2 ,
+			(select name from food where food.id=meal.dish1) as dish1 ,
+			(select name from food where food.id=meal.dish2) as dish2 ,
+			(select name from food where food.id=meal.dish3) as dish3 ,
+			(select name from food where food.id=meal.soup1) as soup1 ,
+			(select name from food where food.id=meal.other1) as other1 ,
+			(select name from food where food.id=meal.other2) as other2 
+			from meal; [ RunTime:0.0550s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-13T20:35:31+08:00 ] ::1 /tp/index.php/User/Chief/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0025s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `person` WHERE ( active = 1 and chiefid =8 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: select person.id,person.name,person.chiefid,eat.date,user.realname,eat.breakfastid,eat.lunchid,eat.supperid,
+		(select meal.name from meal where meal.id=breakfastid) as breakfast,
+		(select meal.name from meal where meal.id=lunchid) as lunch,
+		(select meal.name from meal where meal.id=supperid) as supper
+		from user ,person left join eat on person.id = eat.personid and eat.date = '2017-07-13'
+		where user.id=person.chiefid and person.active =1 and person.chiefid=8
+		limit 0 ,5; [ RunTime:0.0000s ]
+SQL: select meal.id,meal.name,
+			(select name from food where food.id=meal.staple1) as staple1 ,
+			(select name from food where food.id=meal.staple2) as staple2 ,
+			(select name from food where food.id=meal.dish1) as dish1 ,
+			(select name from food where food.id=meal.dish2) as dish2 ,
+			(select name from food where food.id=meal.dish3) as dish3 ,
+			(select name from food where food.id=meal.soup1) as soup1 ,
+			(select name from food where food.id=meal.other1) as other1 ,
+			(select name from food where food.id=meal.other2) as other2 
+			from meal; [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-13T20:35:38+08:00 ] ::1 /tp/User/Chief/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0225s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `person` WHERE ( active = 1 and chiefid =8 ) LIMIT 1   [ RunTime:0.0025s ]
+SQL: select person.id,person.name,person.chiefid,eat.date,user.realname,eat.breakfastid,eat.lunchid,eat.supperid,
+		(select meal.name from meal where meal.id=breakfastid) as breakfast,
+		(select meal.name from meal where meal.id=lunchid) as lunch,
+		(select meal.name from meal where meal.id=supperid) as supper
+		from user ,person left join eat on person.id = eat.personid and eat.date = '2017-07-13'
+		where user.id=person.chiefid and person.active =1 and person.chiefid=8
+		limit 0 ,5; [ RunTime:0.0000s ]
+SQL: select meal.id,meal.name,
+			(select name from food where food.id=meal.staple1) as staple1 ,
+			(select name from food where food.id=meal.staple2) as staple2 ,
+			(select name from food where food.id=meal.dish1) as dish1 ,
+			(select name from food where food.id=meal.dish2) as dish2 ,
+			(select name from food where food.id=meal.dish3) as dish3 ,
+			(select name from food where food.id=meal.soup1) as soup1 ,
+			(select name from food where food.id=meal.other1) as other1 ,
+			(select name from food where food.id=meal.other2) as other2 
+			from meal; [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-13T20:36:47+08:00 ] ::1 /tp/index.php/User/Chief/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0025s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `person` WHERE ( active = 1 and chiefid =8 ) LIMIT 1   [ RunTime:0.0025s ]
+SQL: select person.id,person.name,person.chiefid,eat.date,user.realname,eat.breakfastid,eat.lunchid,eat.supperid,
+		(select meal.name from meal where meal.id=breakfastid) as breakfast,
+		(select meal.name from meal where meal.id=lunchid) as lunch,
+		(select meal.name from meal where meal.id=supperid) as supper
+		from user ,person left join eat on person.id = eat.personid and eat.date = '2017-05-10'
+		where user.id=person.chiefid and person.active =1 and person.chiefid=8
+		limit 0 ,5; [ RunTime:0.0000s ]
+SQL: select meal.id,meal.name,
+			(select name from food where food.id=meal.staple1) as staple1 ,
+			(select name from food where food.id=meal.staple2) as staple2 ,
+			(select name from food where food.id=meal.dish1) as dish1 ,
+			(select name from food where food.id=meal.dish2) as dish2 ,
+			(select name from food where food.id=meal.dish3) as dish3 ,
+			(select name from food where food.id=meal.soup1) as soup1 ,
+			(select name from food where food.id=meal.other1) as other1 ,
+			(select name from food where food.id=meal.other2) as other2 
+			from meal; [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-13T20:37:08+08:00 ] ::1 /tp/index.php/User/Chief/edit?pid=1&day=2017-05-10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `eat` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `eat` WHERE ( personid =1 and date ='2017-05-10' )  [ RunTime:0.0000s ]
+SQL: select eat.id as eid,eat.breakfastid,eat.lunchid,eat.supperid,eat.date,person.id,person.name as pname,person.chiefid,user.realname 
+				from eat,person,user 
+				where eat.personid = person.id and user.id=person.chiefid and person.active =1 and person.id=1 and eat.date = '2017-05-10' [ RunTime:0.0025s ]
+SQL: select meal.*,
+			(select name from food where food.id=meal.staple1) as staple1name ,
+			(select name from food where food.id=meal.staple2) as staple2name ,
+			(select name from food where food.id=meal.dish1) as dish1name ,
+			(select name from food where food.id=meal.dish2) as dish2name ,
+			(select name from food where food.id=meal.dish3) as dish3name ,
+			(select name from food where food.id=meal.soup1) as soup1name ,
+			(select name from food where food.id=meal.other1) as other1name ,
+			(select name from food where food.id=meal.other2) as other2name
+			from meal where active =1 and type ='早餐'; [ RunTime:0.0000s ]
+SQL: select meal.*,
+			(select name from food where food.id=meal.staple1) as staple1name ,
+			(select name from food where food.id=meal.staple2) as staple2name ,
+			(select name from food where food.id=meal.dish1) as dish1name ,
+			(select name from food where food.id=meal.dish2) as dish2name ,
+			(select name from food where food.id=meal.dish3) as dish3name ,
+			(select name from food where food.id=meal.soup1) as soup1name ,
+			(select name from food where food.id=meal.other1) as other1name ,
+			(select name from food where food.id=meal.other2) as other2name
+			from meal where active =1 and type ='正餐'; [ RunTime:0.0000s ]
+SQL: select meal.*,
+			(select name from food where food.id=meal.staple1) as staple1name ,
+			(select name from food where food.id=meal.staple2) as staple2name ,
+			(select name from food where food.id=meal.dish1) as dish1name ,
+			(select name from food where food.id=meal.dish2) as dish2name ,
+			(select name from food where food.id=meal.dish3) as dish3name ,
+			(select name from food where food.id=meal.soup1) as soup1name ,
+			(select name from food where food.id=meal.other1) as other1name ,
+			(select name from food where food.id=meal.other2) as other2name
+			from meal where active =1 and type ='正餐'; [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-13T20:37:39+08:00 ] ::1 /tp/index.php/User/Chief/edit?pid=6&day=2017-05-10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `eat` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `eat` WHERE ( personid =6 and date ='2017-05-10' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\WWW\tp\Application\User\Controller\ChiefController.class.php 第 101 行.
+SQL: select person.id,person.name as pname,user.realname,person.chiefid 
+				from person,user 
+				where user.id=person.chiefid and person.active =1 and person.id=6 [ RunTime:0.0025s ]
+SQL: select meal.*,
+			(select name from food where food.id=meal.staple1) as staple1name ,
+			(select name from food where food.id=meal.staple2) as staple2name ,
+			(select name from food where food.id=meal.dish1) as dish1name ,
+			(select name from food where food.id=meal.dish2) as dish2name ,
+			(select name from food where food.id=meal.dish3) as dish3name ,
+			(select name from food where food.id=meal.soup1) as soup1name ,
+			(select name from food where food.id=meal.other1) as other1name ,
+			(select name from food where food.id=meal.other2) as other2name
+			from meal where active =1 and type ='早餐'; [ RunTime:0.0000s ]
+SQL: select meal.*,
+			(select name from food where food.id=meal.staple1) as staple1name ,
+			(select name from food where food.id=meal.staple2) as staple2name ,
+			(select name from food where food.id=meal.dish1) as dish1name ,
+			(select name from food where food.id=meal.dish2) as dish2name ,
+			(select name from food where food.id=meal.dish3) as dish3name ,
+			(select name from food where food.id=meal.soup1) as soup1name ,
+			(select name from food where food.id=meal.other1) as other1name ,
+			(select name from food where food.id=meal.other2) as other2name
+			from meal where active =1 and type ='正餐'; [ RunTime:0.0025s ]
+SQL: select meal.*,
+			(select name from food where food.id=meal.staple1) as staple1name ,
+			(select name from food where food.id=meal.staple2) as staple2name ,
+			(select name from food where food.id=meal.dish1) as dish1name ,
+			(select name from food where food.id=meal.dish2) as dish2name ,
+			(select name from food where food.id=meal.dish3) as dish3name ,
+			(select name from food where food.id=meal.soup1) as soup1name ,
+			(select name from food where food.id=meal.other1) as other1name ,
+			(select name from food where food.id=meal.other2) as other2name
+			from meal where active =1 and type ='正餐'; [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: breakfastid D:\phpStudy\WWW\tp\Application\Runtime\Cache\User\92b812b96547dbe7ff491e4a1ff57804.php 第 14 行.
+NOTIC: [8] Undefined index: lunchid D:\phpStudy\WWW\tp\Application\Runtime\Cache\User\92b812b96547dbe7ff491e4a1ff57804.php 第 15 行.
+NOTIC: [8] Undefined index: supperid D:\phpStudy\WWW\tp\Application\Runtime\Cache\User\92b812b96547dbe7ff491e4a1ff57804.php 第 16 行.
+NOTIC: [8] Undefined index: eid D:\phpStudy\WWW\tp\Application\Runtime\Cache\User\92b812b96547dbe7ff491e4a1ff57804.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-13T20:37:44+08:00 ] ::1 /tp/index.php/User/Chief/modify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `eat` [ RunTime:0.0025s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tp\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tp\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `eat` (`breakfastid`,`lunchid`,`supperid`,`date`,`personid`,`chiefid`) VALUES ('1','6','3','2017-05-10','6','0') [ RunTime:0.0175s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002500s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002500s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2017-07-13T20:37:46+08:00 ] ::1 /tp/user/chief/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0025s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `person` WHERE ( active = 1 and chiefid =8 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: select person.id,person.name,person.chiefid,eat.date,user.realname,eat.breakfastid,eat.lunchid,eat.supperid,
+		(select meal.name from meal where meal.id=breakfastid) as breakfast,
+		(select meal.name from meal where meal.id=lunchid) as lunch,
+		(select meal.name from meal where meal.id=supperid) as supper
+		from user ,person left join eat on person.id = eat.personid and eat.date = '2017-07-13'
+		where user.id=person.chiefid and person.active =1 and person.chiefid=8
+		limit 0 ,5; [ RunTime:0.0025s ]
+SQL: select meal.id,meal.name,
+			(select name from food where food.id=meal.staple1) as staple1 ,
+			(select name from food where food.id=meal.staple2) as staple2 ,
+			(select name from food where food.id=meal.dish1) as dish1 ,
+			(select name from food where food.id=meal.dish2) as dish2 ,
+			(select name from food where food.id=meal.dish3) as dish3 ,
+			(select name from food where food.id=meal.soup1) as soup1 ,
+			(select name from food where food.id=meal.other1) as other1 ,
+			(select name from food where food.id=meal.other2) as other2 
+			from meal; [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+

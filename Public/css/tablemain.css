@@ -1,0 +1,22 @@
+.main{
+	background:url("/tp/Public/images/main.png") no-repeat;
+	width:100%;
+    height:100%;
+    background-size:100% 100%;
+    position:absolute;
+}
+.main table{
+	border-right:1px solid black;
+	border-bottom:1px solid black;
+	width:100%;
+}
+.main table td{
+	width:6%;
+	text-align:center;
+	border-left:1px solid black;
+	border-top:1px solid black;
+}
+.pages{
+	position: fixed; 
+    bottom: 0px; 
+}

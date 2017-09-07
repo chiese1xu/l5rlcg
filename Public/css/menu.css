@@ -1,0 +1,24 @@
+body{
+	margin:0px;
+	padding:0px;
+
+}
+#menuList{
+	margin-top:50px;
+	list-style-type:none;	
+
+}
+#menuList li{
+	margin-top:40px;
+}
+#menuList li a:link{
+	 text-decoration:none;  
+}
+#menu{
+	margin:0 auto;
+	background:url("/tp/Public/images/menu.png") no-repeat;
+	width:100%;
+    height:100%;
+    background-size:100% 100%;
+    position:absolute;
+}

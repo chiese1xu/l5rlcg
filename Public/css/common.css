@@ -1,0 +1,46 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+
+#top{
+  text-align:center;
+  margin:10px;
+  font-size:24px;
+}
+
+#main{
+  height:90%;
+  width:95%;
+  margin:0 auto;
+}
+
+#left{
+  height:100%;
+  width:75%;
+  margin:0 auto;
+  float:left;
+}
+#right{
+  padding-top:20px;
+  text-align:center;
+  line-height:2;
+  height:100%;
+  float:left;
+  width:20%;
+  margin:0 auto;
+}
+
+#content{
+  height:90%;
+  width:95%;
+  margin:5px;
+  text-indent:2em;
+  font-size:16px;
+}
+
+#foot{
+  text-align:center;
+  margin:10px;
+  font-size:12px;
+}
